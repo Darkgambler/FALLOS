@@ -1,0 +1,70 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu Jul 15 21:03:00 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACIONULTIMATE/ENTREGABLE/000.vcd"
+[dumpfile_mtime] "Thu Jul 15 20:08:26 2021"
+[dumpfile_size] 1212793
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACIONULTIMATE/ENTREGABLE/PRUEBA123.gtkw"
+[timestart] 104
+[size] 1000 600
+[pos] -1 -1
+*-3.919688 30 27 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[sst_width] 233
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+testbench.PROB.clk
+@22
+testbench.PROB.data0_in[9:0]
+testbench.PROB.data1_in[9:0]
+testbench.PROB.data2_in[9:0]
+testbench.PROB.data3_in[9:0]
+@28
+testbench.PROB.init
+testbench.PROB.limit_high[2:0]
+testbench.PROB.limit_low[2:0]
+@200
+-OUTPUTS
+@28
+[color] 7
+testbench.COND.limit_high_mach[2:0]
+[color] 7
+testbench.COND.limit_low_mach[2:0]
+[color] 5
+testbench.SYNT.limit_high_mach[2:0]
+[color] 5
+testbench.SYNT.limit_low_mach[2:0]
+@23
+[color] 7
+testbench.PROB.fifo4_out[9:0]
+@22
+[color] 5
+testbench.PROB.fifo4_out_synt[9:0]
+@28
+testbench.PROB.valid4
+@22
+[color] 7
+testbench.PROB.fifo5_out[9:0]
+[color] 5
+testbench.PROB.fifo5_out_synt[9:0]
+@28
+testbench.PROB.valid5
+@22
+[color] 7
+testbench.PROB.fifo6_out[9:0]
+[color] 5
+testbench.PROB.fifo6_out_synt[9:0]
+@28
+testbench.PROB.valid6
+@22
+[color] 7
+testbench.PROB.fifo7_out[9:0]
+[color] 5
+testbench.PROB.fifo7_out_synt[9:0]
+@28
+testbench.PROB.valid7
+[pattern_trace] 1
+[pattern_trace] 0

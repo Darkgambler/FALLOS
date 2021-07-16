@@ -1,0 +1,13 @@
+`include "integracion.v"
+`include "synth_integracion.v"
+`include "probador.v"
+`include "./UTILIDADES/cmos_cells.v"
+
+module testbench;
+   /*AUTOWIRE*/
+
+   probador PROBADOR( /*AUTOINST*/);
+   integracion CONDUCTUAL( /*AUTOINST*/);
+   synth_integracion SINTETIZADO( /*AUTOINST*/);
+
+endmodule // testbench

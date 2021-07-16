@@ -1,0 +1,59 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Jul  4 09:27:32 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/3.ARBITRO/000pushs.vcd"
+[dumpfile_mtime] "Sun Jul  4 09:27:13 2021"
+[dumpfile_size] 11798
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/3.ARBITRO/000PUSHS.gtkw"
+[timestart] 0
+[size] 1308 704
+[pos] -1 -1
+*-3.949959 10 5 11 21 51 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[sst_width] 233
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 180
+@200
+-INPUTS
+@28
+testbench.PROBADOR.reset
+testbench.PROBADOR.empty0
+testbench.PROBADOR.empty1
+testbench.PROBADOR.empty2
+testbench.PROBADOR.empty3
+testbench.PROBADOR.afull0
+testbench.PROBADOR.afull1
+testbench.PROBADOR.afull2
+testbench.PROBADOR.afull3
+@24
+testbench.PROBADOR.dest[1:0]
+@200
+-OUTPUTS
+@28
+[color] 7
+testbench.PROBADOR.push0_out
+[color] 7
+testbench.PROBADOR.push1_out
+[color] 7
+testbench.PROBADOR.push2_out
+[color] 7
+testbench.PROBADOR.push3_out
+@24
+[color] 7
+testbench.PROBADOR.demux0_out[1:0]
+@28
+[color] 5
+testbench.PROBADOR.push0_out_synt
+[color] 5
+testbench.PROBADOR.push1_out_synt
+[color] 5
+testbench.PROBADOR.push2_out_synt
+[color] 5
+testbench.PROBADOR.push3_out_synt
+@25
+[color] 5
+testbench.PROBADOR.demux0_out_synt[1:0]
+[pattern_trace] 1
+[pattern_trace] 0

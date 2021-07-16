@@ -1,0 +1,61 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Jul 12 04:25:02 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACIONDESTRUC/000pruebaalmostfull.vcd"
+[dumpfile_mtime] "Mon Jul 12 04:19:07 2021"
+[dumpfile_size] 1142798
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACIONDESTRUC/000PRUEBAALMOSTFULL.gtkw"
+[timestart] 9
+[size] 1187 600
+[pos] -1 -1
+*-4.231840 24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.SYNT.
+[sst_width] 233
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-PROBADOR
+@28
+testbench.PROB.clk
+@22
+testbench.PROB.data0_in[9:0]
+testbench.PROB.data1_in[9:0]
+testbench.PROB.data2_in[9:0]
+testbench.PROB.data3_in[9:0]
+@200
+-FIFOS DE SALIDA
+@24
+[color] 5
+testbench.SYNT.FIFO4.high_limit[2:0]
+@29
+[color] 5
+testbench.SYNT.FIFO4.fifo_full_out_synt
+@22
+[color] 5
+testbench.SYNT.FIFO4.fifo_data_in[9:0]
+@28
+[color] 5
+testbench.SYNT.FIFO4.fifo_write
+@22
+[color] 5
+testbench.SYNT.FIFO5.fifo_data_in[9:0]
+@28
+[color] 5
+testbench.SYNT.FIFO5.fifo_write
+@22
+[color] 5
+testbench.SYNT.FIFO6.fifo_data_in[9:0]
+@28
+[color] 5
+testbench.SYNT.FIFO6.fifo_write
+@22
+[color] 5
+testbench.SYNT.FIFO7.fifo_data_in[9:0]
+@28
+[color] 5
+testbench.SYNT.FIFO7.fifo_write
+[pattern_trace] 1
+[pattern_trace] 0

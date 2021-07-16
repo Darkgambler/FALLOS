@@ -1,0 +1,30 @@
+
+   xfifo FIFO7( fifo7_o, fifo7_full, fifo7_empty, fifo7_err, 
+		fifo7_i, high, low, push7, pop7, clk, reset );   always @( posedge clk ) begin: DEMUX0_LOGIC
+      if( !reset ) begin
+	 demux0_out <= 2'b00;
+      end
+      else begin
+	 if( !empty0 ) begin
+	    demux0_out <= 2'b00;
+	 end
+	 else begin
+	    if( !empty1 ) begin
+	       demux0_out <= 2'b01;
+	    end
+	    else begin
+	       if( !empty2 ) begin
+		  demux0_out <= 2'b10;
+	       end
+	       else begin
+		  if( !empty3 ) begin
+		     demux0_out <= 2'b11;
+		  end
+		  else begin
+		     demux0_out <= 2'b00;
+		  end
+	       end // else: !if( !empty2 )
+	    end // else: !if( !empty1 )
+	 end // else: !if( !empty0 )
+      end // else: !if( !reset )
+   end // block: DEMUX0_LOGIC

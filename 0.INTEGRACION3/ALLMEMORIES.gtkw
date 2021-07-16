@@ -1,0 +1,215 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Jul 14 00:47:48 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACION3/000.vcd"
+[dumpfile_mtime] "Wed Jul 14 00:44:05 2021"
+[dumpfile_size] 1295296
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACION3/ALLMEMORIES.gtkw"
+[timestart] 90
+[size] 1000 609
+[pos] -1 -1
+*-3.991586 127 301 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.COND.
+[treeopen] testbench.COND.FIFO2.
+[treeopen] testbench.COND.FIFO3.
+[treeopen] testbench.SYNT.
+[sst_width] 233
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 145
+@200
+-ARBITRO
+@28
+testbench.COND.ARBITRO.demux0_out[1:0]
+testbench.COND.ARBITRO.empty0
+testbench.COND.ARBITRO.empty1
+testbench.COND.ARBITRO.empty2
+testbench.COND.ARBITRO.empty3
+testbench.COND.MISCELANEO.clk
+testbench.COND.ARBITRO.pop0_out
+testbench.COND.ARBITRO.pop1_out
+testbench.COND.ARBITRO.pop2_out
+testbench.COND.ARBITRO.pop3_out
+@200
+-DEMUXES
+@22
+testbench.COND.MISCELANEO.dato_inter[9:0]
+testbench.COND.MISCELANEO.fifo0_out[9:0]
+testbench.COND.MISCELANEO.fifo1_out[9:0]
+testbench.COND.MISCELANEO.fifo2_out[9:0]
+testbench.COND.MISCELANEO.fifo3_out[9:0]
+@200
+-SALIDAS PROBADOR
+@28
+testbench.COND.ARBITRO.afull0
+testbench.COND.ARBITRO.afull1
+testbench.COND.ARBITRO.afull2
+testbench.COND.ARBITRO.afull3
+@22
+testbench.PROB.data0_in[9:0]
+testbench.PROB.data1_in[9:0]
+testbench.PROB.data2_in[9:0]
+testbench.PROB.data3_in[9:0]
+[color] 7
+testbench.PROB.fifo4_out[9:0]
+[color] 5
+testbench.PROB.fifo4_out_synt[9:0]
+@28
+testbench.PROB.valid4
+@22
+[color] 7
+testbench.PROB.fifo5_out[9:0]
+[color] 5
+testbench.PROB.fifo5_out_synt[9:0]
+@28
+testbench.PROB.valid5
+@22
+[color] 7
+testbench.PROB.fifo6_out[9:0]
+[color] 5
+testbench.PROB.fifo6_out_synt[9:0]
+@28
+testbench.PROB.valid6
+@22
+[color] 7
+testbench.PROB.fifo7_out[9:0]
+[color] 5
+testbench.PROB.fifo7_out_synt[9:0]
+@28
+testbench.PROB.valid7
+@200
+-MEM FIFO4
+@28
+testbench.COND.FIFO4.fifo_write
+@22
+testbench.COND.FIFO4.fifo_data_in[9:0]
+@28
+testbench.COND.ARBITRO.any_full
+testbench.COND.FIFO0.error_fifo_out
+testbench.COND.FIFO1.error_fifo_out
+testbench.COND.FIFO2.error_fifo_out
+testbench.COND.FIFO3.error_fifo_out
+testbench.COND.FIFO4.error_fifo_out
+testbench.COND.FIFO5.error_fifo_out
+testbench.COND.FIFO6.error_fifo_out
+testbench.COND.FIFO7.error_fifo_out
+testbench.COND.FIFO4.fifo_write
+@22
+testbench.COND.FIFO4.MEM.memoria0[9:0]
+testbench.COND.FIFO4.MEM.memoria1[9:0]
+testbench.COND.FIFO4.MEM.memoria2[9:0]
+testbench.COND.FIFO4.MEM.memoria3[9:0]
+testbench.COND.FIFO4.MEM.memoria4[9:0]
+testbench.COND.FIFO4.MEM.memoria5[9:0]
+testbench.COND.FIFO4.MEM.memoria6[9:0]
+testbench.COND.FIFO4.MEM.memoria7[9:0]
+@200
+-MEM FIFO5
+@22
+testbench.COND.FIFO5.MEM.memoria0[9:0]
+testbench.COND.FIFO5.MEM.memoria1[9:0]
+testbench.COND.FIFO5.MEM.memoria2[9:0]
+testbench.COND.FIFO5.MEM.memoria3[9:0]
+testbench.COND.FIFO5.MEM.memoria4[9:0]
+testbench.COND.FIFO5.MEM.memoria5[9:0]
+testbench.COND.FIFO5.MEM.memoria6[9:0]
+testbench.COND.FIFO5.MEM.memoria7[9:0]
+@200
+-MEM FIFO6
+@22
+testbench.COND.FIFO6.MEM.memoria0[9:0]
+testbench.COND.FIFO6.MEM.memoria1[9:0]
+testbench.COND.FIFO6.MEM.memoria2[9:0]
+testbench.COND.FIFO6.MEM.memoria3[9:0]
+testbench.COND.FIFO6.MEM.memoria4[9:0]
+testbench.COND.FIFO6.MEM.memoria5[9:0]
+testbench.COND.FIFO6.MEM.memoria6[9:0]
+testbench.COND.FIFO6.MEM.memoria7[9:0]
+@200
+-MEM FIFO7
+@22
+testbench.COND.FIFO7.MEM.memoria0[9:0]
+testbench.COND.FIFO7.MEM.memoria1[9:0]
+testbench.COND.FIFO7.MEM.memoria2[9:0]
+testbench.COND.FIFO7.MEM.memoria3[9:0]
+testbench.COND.FIFO7.MEM.memoria4[9:0]
+testbench.COND.FIFO7.MEM.memoria5[9:0]
+testbench.COND.FIFO7.MEM.memoria6[9:0]
+testbench.COND.FIFO7.MEM.memoria7[9:0]
+@200
+-MEM FIFO0
+@28
+testbench.COND.FIFO0.clk
+@22
+testbench.COND.FIFO0.fifo_data_out[9:0]
+@28
+testbench.COND.FIFO0.fifo_read
+@22
+testbench.COND.FIFO0.MEM.memoria0[9:0]
+testbench.COND.FIFO0.MEM.memoria1[9:0]
+testbench.COND.FIFO0.MEM.memoria2[9:0]
+testbench.COND.FIFO0.MEM.memoria3[9:0]
+testbench.COND.FIFO0.MEM.memoria4[9:0]
+testbench.COND.FIFO0.MEM.memoria5[9:0]
+testbench.COND.FIFO0.MEM.memoria6[9:0]
+testbench.COND.FIFO0.MEM.memoria7[9:0]
+@200
+-MEM FIFO1
+@22
+testbench.COND.FIFO1.fifo_data_out[9:0]
+@28
+testbench.COND.FIFO1.fifo_read
+@22
+testbench.COND.FIFO1.MEM.memoria0[9:0]
+testbench.COND.FIFO1.MEM.memoria1[9:0]
+testbench.COND.FIFO1.MEM.memoria2[9:0]
+testbench.COND.FIFO1.MEM.memoria3[9:0]
+testbench.COND.FIFO1.MEM.memoria4[9:0]
+testbench.COND.FIFO1.MEM.memoria5[9:0]
+testbench.COND.FIFO1.MEM.memoria6[9:0]
+testbench.COND.FIFO1.MEM.memoria7[9:0]
+@200
+-MEM FIFO2
+@22
+testbench.COND.FIFO2.fifo_data_out[9:0]
+@24
+testbench.COND.FIFO2.read_ptr[2:0]
+@28
+testbench.COND.FIFO2.fifo_read
+@22
+testbench.COND.FIFO2.MEM.memoria0[9:0]
+testbench.COND.FIFO2.MEM.memoria1[9:0]
+testbench.COND.FIFO2.MEM.memoria2[9:0]
+testbench.COND.FIFO2.MEM.memoria3[9:0]
+testbench.COND.FIFO2.MEM.memoria4[9:0]
+testbench.COND.FIFO2.MEM.memoria5[9:0]
+testbench.COND.FIFO2.MEM.memoria6[9:0]
+testbench.COND.FIFO2.MEM.memoria7[9:0]
+@200
+-MEM FIFO3
+@28
+testbench.COND.ARBITRO.afull0
+testbench.COND.ARBITRO.afull1
+testbench.COND.ARBITRO.afull2
+testbench.COND.ARBITRO.afull3
+testbench.COND.FIFO3.fifo_read
+@22
+testbench.COND.FIFO3.fifo_data_out[9:0]
+@28
+testbench.COND.ARBITRO.pop3_out
+testbench.COND.ARBITRO.any_full
+@24
+testbench.COND.FIFO3.read_ptr[2:0]
+@22
+testbench.COND.FIFO3.MEM.memoria0[9:0]
+testbench.COND.FIFO3.MEM.memoria1[9:0]
+testbench.COND.FIFO3.MEM.memoria2[9:0]
+testbench.COND.FIFO3.MEM.memoria3[9:0]
+testbench.COND.FIFO3.MEM.memoria4[9:0]
+testbench.COND.FIFO3.MEM.memoria5[9:0]
+testbench.COND.FIFO3.MEM.memoria6[9:0]
+testbench.COND.FIFO3.MEM.memoria7[9:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,8 @@
+read_verilog integracion.v
+hierarchy -check -top integracion
+proc; opt; memory; opt
+techmap; opt
+dfflibmap -liberty UTILIDADES/cmos_cells.lib
+abc -liberty UTILIDADES/cmos_cells.lib
+clean
+write_verilog synth_integracion.v

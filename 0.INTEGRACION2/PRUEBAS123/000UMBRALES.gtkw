@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jul 13 07:31:08 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACION/000.vcd"
+[dumpfile_mtime] "Tue Jul 13 07:16:01 2021"
+[dumpfile_size] 1277548
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACION/000UMBRALES.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-4.765602 41 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.COND.
+[treeopen] testbench.SYNT.
+[sst_width] 233
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-SALIDAS PROBADOR
+@28
+testbench.PROB.clk
+testbench.PROB.reset
+testbench.PROB.init
+@25
+testbench.PROB.limit_high[2:0]
+@24
+testbench.PROB.limit_low[2:0]
+@200
+-SALIDAS MAQUINA
+@24
+[color] 7
+testbench.COND.MACH.limit_high_out[2:0]
+[color] 7
+testbench.COND.MACH.limit_low_out[2:0]
+[color] 5
+testbench.SYNT.MACH.limit_high_out_synt[2:0]
+[color] 5
+testbench.SYNT.MACH.limit_low_out_synt[2:0]
+[pattern_trace] 1
+[pattern_trace] 0

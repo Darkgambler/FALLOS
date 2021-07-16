@@ -1,0 +1,80 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Jul 12 04:00:21 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACIONDESTRUC/000pruebanormal.vcd"
+[dumpfile_mtime] "Mon Jul 12 03:54:20 2021"
+[dumpfile_size] 1080206
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/0.INTEGRACIONDESTRUC/000PRUEBANORMAL.gtkw"
+[timestart] 15
+[size] 1083 657
+[pos] 24 0
+*-4.182722 66 59 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.COND.
+[treeopen] testbench.SYNT.
+[sst_width] 233
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 162
+@200
+-PROBADOR
+@28
+testbench.PROB.clk
+@22
+testbench.PROB.data0_in[9:0]
+testbench.PROB.data1_in[9:0]
+testbench.PROB.data2_in[9:0]
+testbench.PROB.data3_in[9:0]
+@200
+-SALIDAS FIFOS ENTRADA
+@22
+[color] 7
+testbench.COND.FIFO0.fifo_data_out[9:0]
+@28
+[color] 7
+testbench.COND.FIFO0.fifo_empty_out
+@22
+[color] 7
+testbench.COND.FIFO1.fifo_data_out[9:0]
+@28
+[color] 7
+testbench.COND.FIFO1.fifo_empty_out
+@22
+[color] 7
+testbench.COND.FIFO2.fifo_data_out[9:0]
+@28
+[color] 7
+testbench.COND.FIFO2.fifo_empty_out
+@22
+[color] 7
+testbench.COND.FIFO3.fifo_data_out[9:0]
+@28
+[color] 7
+testbench.COND.FIFO3.fifo_empty_out
+@22
+[color] 5
+testbench.SYNT.FIFO0.fifo_data_out_synt[9:0]
+@28
+[color] 5
+testbench.SYNT.FIFO0.fifo_empty_out_synt
+@22
+[color] 5
+testbench.SYNT.FIFO1.fifo_data_out_synt[9:0]
+@28
+[color] 5
+testbench.SYNT.FIFO1.fifo_empty_out_synt
+@22
+[color] 5
+testbench.SYNT.FIFO2.fifo_data_out_synt[9:0]
+@28
+[color] 5
+testbench.SYNT.FIFO2.fifo_empty_out_synt
+@22
+[color] 5
+testbench.SYNT.FIFO3.fifo_data_out_synt[9:0]
+@28
+[color] 5
+testbench.SYNT.FIFO3.fifo_empty_out_synt
+[pattern_trace] 1
+[pattern_trace] 0

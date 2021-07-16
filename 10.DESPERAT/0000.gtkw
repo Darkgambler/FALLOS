@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Jul 16 16:41:33 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/7.DESPERAT/000normal.vcd"
+[dumpfile_mtime] "Fri Jul 16 16:39:29 2021"
+[dumpfile_size] 989869
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO2/PROYECTO2_DIGITALESII/7.DESPERAT/0000.gtkw"
+[timestart] 17
+[size] 1000 600
+[pos] -1 -1
+*-3.407789 39 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.CONDUCTUAL.
+[treeopen] testbench.SINTETIZADO.
+[treeopen] testbench.SINTETIZADO.FIFO7.
+[sst_width] 233
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+testbench.PROBADOR.clk
+testbench.PROBADOR.reset
+@22
+testbench.PROBADOR.fifo0_i[9:0]
+@28
+testbench.PROBADOR.push0
+@22
+testbench.PROBADOR.fifo1_i[9:0]
+@28
+testbench.PROBADOR.push1
+@22
+testbench.PROBADOR.fifo2_i[9:0]
+@28
+testbench.PROBADOR.push2
+@22
+testbench.PROBADOR.fifo3_i[9:0]
+@29
+testbench.PROBADOR.push3
+[pattern_trace] 1
+[pattern_trace] 0

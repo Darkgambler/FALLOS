@@ -1,0 +1,3 @@
+
+   xfifo FIFO3( fifo1_o, fifo1_full, fifo1_empty, fifo1_err, 
+		fifo1_i, high, low, push1, pop1, clk, reset );

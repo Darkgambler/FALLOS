@@ -1,0 +1,3 @@
+
+   xfifo FIFO7( fifo7_o, fifo7_full, fifo7_empty, fifo7_err, 
+		fifo7_i, high, low, push7, pop7, clk, reset );
